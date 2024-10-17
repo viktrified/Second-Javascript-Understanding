@@ -6,13 +6,28 @@ let convertedNumberToString = String(num1);
 
 let num2 = 40; // number
 let fixed = num2.toFixed(2); // string
-console.log(fixed); // string
-console.log(typeof fixed); // string
+// console.log(fixed); // string
+// console.log(typeof fixed); // string
+// console.log(fixed.charCodeAt()); // number
+// console.log(typeof fixed.charCodeAt()); // number
+// console.log(typeof fixed); // string
+// console.log(fixed.charCodeAt().toFixed(8).charCodeAt()); // number
 
-console.log(fixed.charCodeAt()); // number
+let randomList = ["blue", false, "come"];
+let anotherRandomList = randomList;
+// console.log(randomList, anotherRandomList);
+randomList.push(null);
+// console.log(randomList);
+randomList.unshift("pink");
+// console.log(anotherRandomList);
+anotherRandomList.shift();
+// console.log(randomList);
 
-console.log(typeof fixed.charCodeAt()); // number
+let arr = [1, 2, 3, 4, [2, 3, [2, 3, [3, 4]], 7], 6];
+// console.log(arr[4][2][2][2]);
 
-console.log(typeof fixed); // string
+let colors = ["blue", "red", "yellow", "Green"];
 
-console.log(fixed.charCodeAt().toFixed(8).charCodeAt()); // number
+// console.log(colors.splice(2, 1));
+
+// console.log(colors);
