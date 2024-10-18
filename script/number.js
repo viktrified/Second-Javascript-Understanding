@@ -14,8 +14,14 @@ let fixed = num2.toFixed(2); // string
 // console.log(fixed.charCodeAt().toFixed(8).charCodeAt()); // number
 
 let randomList = ["blue", false, "come"];
+let wowList = ["blue", false, "come"];
+let weeList = wowList;
 let anotherRandomList = randomList;
 // console.log(randomList, anotherRandomList);
+// console.log(wowList, weeList);
+wowList.push(null);
+weeList.unshift("wahala");
+
 randomList.push(null);
 // console.log(randomList);
 randomList.unshift("pink");
